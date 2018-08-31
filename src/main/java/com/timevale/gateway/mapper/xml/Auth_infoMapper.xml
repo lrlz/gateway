@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.timevale.gateway.mapper.Auth_infoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.timevale.gateway.entity.Auth_info">
+        <id column="id" property="id" />
+        <result column="third_corp_id" property="third_corp_id" />
+        <result column="corp_name" property="corp_name" />
+        <result column="permanent_code" property="permanent_code" />
+        <result column="status" property="status" />
+        <result column="is_deleted" property="is_deleted" />
+        <result column="create_time" property="create_time" />
+        <result column="update_time" property="update_time" />
+        <result column="auth_agent_id" property="auth_agent_id" />
+    </resultMap>
+
+</mapper>
